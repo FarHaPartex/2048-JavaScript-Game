@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0px;
+	background:#ffb380;
+}
+p,ul, h1,h2,h3,h4,h5{
+	padding: 0px;
+	margin: 0px;
+}
+.main_box{
+	width: 100%;
+	overflow: hidden;
+}
+
+.game_box{
+	width: 40%;
+	margin: auto;
+}
+
+.inner_box{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 7%;
+}
+.row{
+	width: 100%;
+	overflow: hidden;
+}
+.col{
+	float: left;
+}
+.cell{
+	width: 30%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background:  #ff9933;
+	text-align: center;
+	color: #cccccc;
+	text-shadow: 1px 1px 2px black;
+	font-weight: bold;
+	font-size: 20px;
+	border: 1px solid #ff8000;
+	cursor: pointer;
+}
+.score_box{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 5%;
+}
+.show_score{
+	width: 100%;
+	overflow: hidden;
+}
+.show_score table{
+	width: 100%;
+}
+table, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td{
+	text-align: center;
+	padding: 10px;
+}
+.heading{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 2%;
+}
+#warning{
+	color: red;
+}
+#success{
+	color: #00b300;
+}
+.button{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 2%;
+	display: none;
+}
+.button button{
+	padding: 10px 15px;
+	background: #ff3300;
+	border: 1px solid #ff3300;
+	color: #f2f2f2;
+	border-radius: 15px; 
+}
+
+
+
+
+.header_box{
+	width: 65%;
+	margin: auto;
+	margin-top: 5%;
+}
+.header_box h2{
+	text-align: center;
+	font-weight: normal;
+}
+.body_box{
+	width: 55%;
+	margin: auto;
+	margin-top: 5%;
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+}
+.section{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 2%;
+}
+.section p{
+	text-align: justify;
+}
+.section a{
+	display: block;
+	width: 15%;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #f2f2f2;
+	background: #ff3300;
+}

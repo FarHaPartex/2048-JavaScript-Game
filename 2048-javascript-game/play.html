@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048 Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="script.js"></script>
+</head>
+<body>
+<div class="main_box">
+   <div class="game_box">
+   	<div class="inner_box">
+   		<div class="row">
+   			<div class="col cell" id="1" onclick="getCell(1)">1</div>
+   			<div class="col cell" id="2" onclick="getCell(2)">2</div>
+   			<div class="col cell" id="3" onclick="getCell(3)">3</div>
+   		</div>
+   		<div class="row">
+   			<div class="col cell" id="4" onclick="getCell(4)">4</div>
+   			<div class="col cell" id="5" onclick="getCell(5)">5</div>
+   			<div class="col cell" id="6" onclick="getCell(6)">6</div>
+   		</div>
+   		<div class="row">
+   			<div class="col cell" id="7" onclick="getCell(7)">7</div>
+   			<div class="col cell" id="8" onclick="getCell(8)">8</div>
+   			<div class="col cell" id="9" onclick="getCell(9)">9</div>
+   		</div>
+   	</div>
+   	<div class="score_box">
+   		<div class="show_score">
+   			<div class="heading">
+   				<p>You have to make 2048 by clicking on the cell</p>
+   				<p id="warning"></p>
+   				<p id="success"></p>
+   				<p id="percent"></p>
+   				<p id="showTime">0</p>
+   			</div>
+   			<table>
+   				<tr>
+   					<td id="currentScore" style="width: 50%;">Your Current Score is 0</td>
+   					<td style="width: 45%;" id="status"><span id="status_text"></span></td>
+   				</tr>
+   			</table>
+   			<div class="button" id="playbutton">
+   				<button onclick="load_page()">Play Again</button>
+   			</div>
+   		</div>
+   	</div>
+   </div>	
+   <p id="show"></p>
+</div>
+
+</body>
+</html>
